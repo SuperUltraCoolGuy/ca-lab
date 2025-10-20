@@ -111,8 +111,7 @@ public class LoggedInView extends JPanel implements ActionListener, PropertyChan
         System.out.println("Click " + evt.getActionCommand());
 
         if (evt.getSource().equals(logOut)) {
-            logoutController.execute(
-            );
+            logoutController.execute();
         }
     }
 
