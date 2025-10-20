@@ -16,4 +16,5 @@ public interface LogoutUserDataAccessInterface {
      * @param username the new current username
      */
     void setCurrentUsername(String username);
+
 }
